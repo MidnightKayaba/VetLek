@@ -1,0 +1,99 @@
+.sidebar {
+  margin-top: 121px; }
+  .sidebar__banner {
+    width: 100%;
+    height: 425px;
+    background: grey;
+    margin-bottom: 20px; }
+  .sidebar__interview, .sidebar__subscription-form {
+    width: 100%;
+    padding: 40px 12px;
+    border: 2px solid #d6ac1d; }
+    .sidebar__interview-title, .sidebar__subscription-title {
+      font-family: "Cera Round Pro";
+      color: #d6ac1d;
+      font-size: 40px;
+      font-weight: 500;
+      text-transform: uppercase;
+      margin-bottom: 35px; }
+      .sidebar__interview-title:before, .sidebar__subscription-title:before {
+        content: "";
+        display: inline-block;
+        width: 38px;
+        height: 54px;
+        background: url("../img/icon-interview.png");
+        margin-right: 10px;
+        margin-bottom: -12px; }
+    .sidebar__interview-description, .sidebar__subscription-description, .sidebar__interview-answer {
+      font-family: "PT Sans";
+      color: #5a4827;
+      font-size: 16px;
+      font-weight: bold; }
+    .sidebar__interview-list {
+      margin-top: 50px; }
+    .sidebar__interview-answer {
+      list-style: none;
+      text-transform: uppercase; }
+      .sidebar__interview-answer label {
+        cursor: pointer; }
+      .sidebar__interview-answer._tt-n {
+        text-transform: none; }
+      .sidebar__interview-answer-radio {
+        -webkit-appearance: none;
+        width: 11px;
+        height: 11px;
+        border: 2px solid #d6ac1d;
+        border-radius: 50%;
+        outline: none; }
+        .sidebar__interview-answer-radio:checked {
+          background: #d6ac1d; }
+    .sidebar__interview-btn, .sidebar__subscription-btn {
+      width: 148px;
+      padding: 7px 11px;
+      margin: 40px auto;
+      border: 2px solid #d5a81c;
+      border-radius: 20px; }
+      .sidebar__interview-btn-text, .sidebar__subscription-btn-text {
+        font-family: "Cera Round Pro";
+        color: #d5a81c;
+        font-size: 18px;
+        font-weight: 500;
+        text-transform: uppercase; }
+        .sidebar__interview-btn-text:hover, .sidebar__subscription-btn-text:hover {
+          color: #d5a81c;
+          text-decoration: none; }
+    .sidebar__interview-link {
+      font-family: "Cera Round Pro";
+      color: #d5a81c;
+      font-size: 18px;
+      font-weight: 500;
+      display: block; }
+      .sidebar__interview-link:hover {
+        color: #d5a81c;
+        text-decoration: none; }
+  .sidebar__img {
+    margin: 40px 0; }
+  .sidebar__subscription-title {
+    margin-bottom: 20px; }
+    .sidebar__subscription-title:before {
+      background: url("../img/icon-sup.png");
+      width: 50px;
+      height: 54px;
+      margin-bottom: -7px; }
+  .sidebar__subscription-description {
+    margin-bottom: 25px; }
+  .sidebar__subscription-form-input {
+    margin: 10px 0;
+    outline: 0;
+    border: 0;
+    border-bottom: 2px solid #d6ac1d;
+    background: none;
+    font-family: "PT Sans";
+    color: #5a4827;
+    font-size: 16px;
+    padding-left: 10px; }
+  .sidebar__subscription-btn {
+    width: 160px;
+    margin-bottom: 0; }
+
+/*# sourceMappingURL=sidebar.css.map */

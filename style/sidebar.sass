@@ -1,0 +1,106 @@
+.sidebar
+  margin-top: 121px
+  &__banner
+    width: 100%
+    height: 425px
+    background: grey
+    margin-bottom: 20px
+  &__interview
+    width: 100%
+    padding: 40px 12px
+    border: 2px solid #d6ac1d
+    &-title
+      font-family: "Cera Round Pro"
+      color:  #d6ac1d
+      font-size: 40px
+      font-weight: 500
+      text-transform: uppercase
+      margin-bottom: 35px
+      &:before
+        content: ''
+        display: inline-block
+        width: 38px
+        height: 54px
+        background: url("../img/icon-interview.png")
+        margin-right: 10px
+        margin-bottom: -12px
+    &-description,
+    &-answer
+      font-family: "PT Sans"
+      color:  #5a4827
+      font-size: 16px
+      font-weight: bold
+    &-list
+      margin-top: 50px
+    &-answer
+      list-style: none
+      text-transform: uppercase
+      & label
+        cursor: pointer
+      &._tt-n
+        text-transform: none
+      &-radio
+        -webkit-appearance: none
+        width: 11px
+        height: 11px
+        border: 2px solid #d6ac1d
+        border-radius: 50%
+        outline: none
+        &:checked
+          background: #d6ac1d
+    &-btn
+      width: 148px
+      padding: 7px 11px
+      margin: 40px auto
+      border: 2px solid #d5a81c
+      border-radius: 20px
+      &-text
+        font-family: "Cera Round Pro"
+        color:  #d5a81c
+        font-size: 18px
+        font-weight: 500
+        text-transform: uppercase
+        &:hover
+          color:  #d5a81c
+          text-decoration: none
+    &-link
+      font-family: "Cera Round Pro"
+      color:  #d5a81c
+      font-size: 18px
+      font-weight: 500
+      display: block
+      &:hover
+        color:  #d5a81c
+        text-decoration: none
+  &__img
+    margin: 40px 0
+  &__subscription
+    &-title
+      @extend .sidebar__interview-title
+      margin-bottom: 20px
+      &:before
+        background: url("../img/icon-sup.png")
+        width: 50px
+        height: 54px
+        margin-bottom: -7px
+    &-description
+      @extend .sidebar__interview-description
+      margin-bottom: 25px
+    &-form
+      @extend .sidebar__interview
+      &-input
+        margin: 10px 0
+        outline: 0
+        border: 0
+        border-bottom: 2px solid #d6ac1d
+        background: none
+        font-family: "PT Sans"
+        color:  #5a4827
+        font-size: 16px
+        padding-left: 10px
+    &-btn
+      @extend .sidebar__interview-btn
+      width: 160px
+      margin-bottom: 0
+      &-text
+        @extend .sidebar__interview-btn-text

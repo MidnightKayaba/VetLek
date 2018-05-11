@@ -1,0 +1,62 @@
+.header__menu {
+  background-color: #5a4827; }
+.header__bottom {
+  height: 190px; }
+.header__icon-phone {
+  align-self: center; }
+.header__contact {
+  font-family: "Cera Round Pro";
+  font-size: 16px;
+  font-weight: 500; }
+  .header__contact-number {
+    margin-right: 20px;
+    color: #5a4827; }
+    .header__contact-number-first {
+      margin-right: 10px; }
+  .header__contact-address {
+    color: #d5a81c; }
+.header__shopping {
+  margin-left: -20px;
+  width: 85px;
+  height: 85px;
+  border: 2px solid #d4a71c;
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  position: relative; }
+  .header__shopping-img {
+    margin: auto; }
+  .header__shopping-count {
+    font-family: "Cera Round Pro";
+    font-weight: 500;
+    color: #5a4827;
+    font-size: 36px;
+    position: absolute;
+    bottom: -25px;
+    left: 25px; }
+
+.navbar {
+  padding: 0.5rem 0; }
+
+.nav-link {
+  font-family: "PT Sans";
+  color: #d4a71c !important;
+  font-size: 16px;
+  text-transform: uppercase;
+  transition: 0.5s; }
+
+.nav-link:hover {
+  color: #fff !important; }
+
+.sign-in-up {
+  color: #cec1a5; }
+  .sign-in-up__link {
+    color: #cec1a5;
+    text-transform: uppercase;
+    font-family: "PT Sans";
+    font-size: 16px; }
+    .sign-in-up__link:hover {
+      color: #fff;
+      text-decoration: none; }
+
+/*# sourceMappingURL=header.css.map */

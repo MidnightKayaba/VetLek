@@ -1,0 +1,1276 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>VETLEK</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css"
+          integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="app.css">
+</head>
+<body>
+<header class="header">
+    <div class="header__menu">
+        <div class="container">
+            <div class="row align-items-center justify-content-between py-1">
+                <nav class="navbar navbar-expand-lg navbar-dark col-xl-8">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav w-100 justify-content-between">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">О компании</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Новости</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Доставка</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Форум</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Статьи</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Наши контакты</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+                <div class="col-xl-2">
+                    <div class="sign-in-up w-100 d-flex justify-content-between">
+                        <a href="#" class="sign-in-up__link">Вход </a>
+                        |
+                        <a href="#" class="sign-in-up__link"> Регистрация</a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="header__bottom">
+            <div class="row h-100 align-items-center">
+                <div class="col-xl-3 logo">
+                    <img src="img/logo.png" alt="VETLEK" class="logo__img w-100">
+                </div>
+                <div class="col-xl-8">
+                    <div class="row">
+                        <div class="col-xl-1 header__icon-phone">
+                            <img src="img/phone-icon.png" alt="" class="header__icon-phone-img">
+                        </div>
+                        <div class="col-xl-11 header__contact">
+                            <p class="header__contact-text">
+                                <span class="header__contact-number">
+                                    <span class="header__contact-number-first">(495) 510-86-04</span>
+                                    <span class="header__contact-number-second">(499) 168-85-86</span>
+                                </span>
+                                <span class="header__contact-address">г. Москва, Открытое шоссе, дом 5, корпус 6</span>
+                            </p>
+                            <p class="header__contact-text mb-0">
+                                <span class="header__contact-number">
+                                    <span class="header__contact-number-first">(495) 510-86-04</span>
+                                    <span class="header__contact-number-second">(499) 168-85-86</span>
+                                </span>
+                                <span class="header__contact-address">г. Москва, ул. Нижняя Красносельская, дом 28</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-1">
+                    <div class="header__shopping">
+                        <img src="img/shopping-icon.png" alt="" class="header__shopping-img">
+                        <span class="header__shopping-count">12</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+
+<main class="main">
+    <div class="catalog">
+        <div class="container">
+            <div class="row catalog__header justify-content-between">
+                <div class="col-xl-4 catalog__header-link catalog-js-popup">
+                    <img src="img/menu-icon.png" alt="" class="catalog__header-link-img">
+                    <span class="catalog__header-link-text">каталог</span>
+                </div>
+                <div class="col-xl-8 search">
+                    <div class="row">
+                        <div class="col-xl-11 input-group">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text active">Поиск по каталогу</span>
+                                <span class="input-group-text">Поиск по сайту</span>
+                            </div>
+                            <input type="text" class="form-control">
+                        </div>
+                        <div class="col-xl-1 search__btn">
+                            <img src="img/search-icon.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-12 catalog__popup catalog__popup-goods w-100">
+                    <div class="row">
+                        <div class="col-xl-4">
+                            <div class="catalog__popup-goods-item">
+                                <a href="#" class="catalog__popup-goods-item-title">корма</a>
+                                <div class="catalog__popup-goods-item-links">
+                                    <a href="#" class="catalog__popup-goods-item-links-link">Корма сухие</a>,
+                                    <a href="#" class="catalog__popup-goods-item-links-link">Влажные корма</a>,
+                                    <a href="#" class="catalog__popup-goods-item-links-link">Лакомства</a>,
+                                    <a href="#" class="catalog__popup-goods-item-links-link">Диеты</a>
+                                </div>
+                            </div>
+                            <div class="catalog__popup-goods-item">
+                                <a href="#" class="catalog__popup-goods-item-title">игрушки</a>
+                                <div class="catalog__popup-goods-item-links">
+                                    <a href="#" class="catalog__popup-goods-item-links-link">Виниловые</a>,
+                                    <a href="#" class="catalog__popup-goods-item-links-link">Латексные</a>,
+                                    <a href="#" class="catalog__popup-goods-item-links-link">Пластиковые</a>,
+                                    <a href="#" class="catalog__popup-goods-item-links-link">Резиновые</a>,
+                                    <a href="#" class="catalog__popup-goods-item-links-link">Текстильные</a>
+                                </div>
+                            </div>
+                            <div class="catalog__popup-goods-item">
+                                <a href="#" class="catalog__popup-goods-item-title">амуниция</a>
+                                <div class="catalog__popup-goods-item-links">
+                                    <a href="#" class="catalog__popup-goods-item-links-link">Намордник</a>,
+                                    <a href="#" class="catalog__popup-goods-item-links-link">Ошейник</a>,
+                                    <a href="#" class="catalog__popup-goods-item-links-link">Поводок</a>,
+                                    <a href="#" class="catalog__popup-goods-item-links-link">Рулетка</a>,
+                                    <a href="#" class="catalog__popup-goods-item-links-link">Шлейка</a>
+                                </div>
+                            </div>
+                            <div class="catalog__popup-goods-item">
+                                <a href="#" class="catalog__popup-goods-item-title">груминг</a>
+                                <div class="catalog__popup-goods-item-links">
+                                    <a href="#" class="catalog__popup-goods-item-links-link">Машинка</a>,
+                                    <a href="#" class="catalog__popup-goods-item-links-link">Ножницы</a>,
+                                    <a href="#" class="catalog__popup-goods-item-links-link">Пуходерка</a>,
+                                    <a href="#" class="catalog__popup-goods-item-links-link">Триммер</a>,
+                                    <a href="#" class="catalog__popup-goods-item-links-link">Фурминатор</a>,
+                                    <a href="#" class="catalog__popup-goods-item-links-link">Когтерез</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-4">
+                            <div class="catalog__popup-goods-item">
+                                <a href="#" class="catalog__popup-goods-item-title">миски</a>
+                                <div class="catalog__popup-goods-item-links">
+                                    <a href="#" class="catalog__popup-goods-item-links-link">Керамика</a>,
+                                    <a href="#" class="catalog__popup-goods-item-links-link">Металл</a>,
+                                    <a href="#" class="catalog__popup-goods-item-links-link">Пластик</a>,
+                                    <a href="#" class="catalog__popup-goods-item-links-link">Двойная</a>,
+                                    <a href="#" class="catalog__popup-goods-item-links-link">Одинарная</a>
+                                </div>
+                            </div>
+                            <div class="catalog__popup-goods-item">
+                                <a href="#" class="catalog__popup-goods-item-title">мягкие места</a>
+                                <div class="catalog__popup-goods-item-links">
+                                    <a href="#" class="catalog__popup-goods-item-links-link">Лежаки</a>,
+                                    <a href="#" class="catalog__popup-goods-item-links-link">Large</a>,
+                                    <a href="#" class="catalog__popup-goods-item-links-link">Medium</a>,
+                                    <a href="#" class="catalog__popup-goods-item-links-link">Small</a>,
+                                    <a href="#" class="catalog__popup-goods-item-links-link">Матрасы и подстилки</a>
+                                </div>
+                            </div>
+                            <div class="catalog__popup-goods-item">
+                                <a href="#" class="catalog__popup-goods-item-title">вольеры</a>
+                                <div class="catalog__popup-goods-item-links">
+                                    <a href="#" class="catalog__popup-goods-item-links-link">Домики для собак</a>,
+                                    <a href="#" class="catalog__popup-goods-item-links-link">Будки</a>,
+                                    <a href="#" class="catalog__popup-goods-item-links-link">Клетки</a>,
+                                    <a href="#" class="catalog__popup-goods-item-links-link">Small</a>,
+                                    <a href="#" class="catalog__popup-goods-item-links-link">Medium</a>,
+                                    <a href="#" class="catalog__popup-goods-item-links-link">Large</a>
+                                </div>
+                            </div>
+                            <div class="catalog__popup-goods-item">
+                                <a href="#" class="catalog__popup-goods-item-title">Одежда</a>
+                                <div class="catalog__popup-goods-item-links">
+                                    <a href="#" class="catalog__popup-goods-item-links-link">Попона</a>,
+                                    <a href="#" class="catalog__popup-goods-item-links-link">Рубашки</a>,
+                                    <a href="#" class="catalog__popup-goods-item-links-link">Футболки</a>,
+                                    <a href="#" class="catalog__popup-goods-item-links-link">Юбка</a>,
+                                    <a href="#" class="catalog__popup-goods-item-links-link">Девочка</a>,
+                                    <a href="#" class="catalog__popup-goods-item-links-link">Мальчик</a>,
+                                    <a href="#" class="catalog__popup-goods-item-links-link">Унисекс</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-4">
+                            <div class="catalog__popup-goods-item">
+                                <a href="#" class="catalog__popup-goods-item-title">обувь</a>
+                                <div class="catalog__popup-goods-item-links">
+                                    <a href="#" class="catalog__popup-goods-item-links-link">Ботиночки</a>,
+                                    <a href="#" class="catalog__popup-goods-item-links-link">Носки</a>,
+                                    <a href="#" class="catalog__popup-goods-item-links-link">Весна</a>,
+                                    <a href="#" class="catalog__popup-goods-item-links-link">Осень и зима</a>
+                                </div>
+                            </div>
+                            <div class="catalog__popup-goods-item">
+                                <a href="#" class="catalog__popup-goods-item-title">Переноски</a>
+                                <div class="catalog__popup-goods-item-links">
+                                    <a href="#" class="catalog__popup-goods-item-links-link">Пластиковые котейнеры</a>,
+                                    <a href="#" class="catalog__popup-goods-item-links-link">Сумки</a>,
+                                    <a href="#" class="catalog__popup-goods-item-links-link">Small</a>,
+                                </div>
+                            </div>
+                            <div class="catalog__popup-goods-item">
+                                <a href="#" class="catalog__popup-goods-item-title">Прочее</a>
+                            </div>
+                            <div class="catalog__popup-goods-item">
+                                <a href="#" class="catalog__popup-goods-item-title">Автогамак</a>
+                            </div>
+                            <div class="catalog__popup-goods-item">
+                                <a href="#" class="catalog__popup-goods-item-title">Туалеты</a>
+                                <div class="catalog__popup-goods-item-links">
+                                    <a href="#" class="catalog__popup-goods-item-links-link">Лоток с бортиком</a>,
+                                    <a href="#" class="catalog__popup-goods-item-links-link">Лоток с сеткой</a>,
+                                    <a href="#" class="catalog__popup-goods-item-links-link">Пакеты</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-12 catalog__popup catalog__popup-consultation w-100">
+                    <div class="row">
+                        <div class="col-xl-4">
+                            <div class="catalog__popup-consultation-title justify-content-between active">
+                                <div class="catalog__popup-consultation-title-wrapper">
+                                    <i class="far fa-dot-circle catalog__popup-consultation-title-icon"></i>
+                                    <span class="catalog__popup-consultation-title-text">ветпрепараты</span>
+                                </div>
+                                <i class="fas fa-arrow-right catalog__popup-consultation-title-arrow"></i>
+                            </div>
+                            <div class="catalog__popup-consultation-title justify-content-between">
+                                <div class="catalog__popup-consultation-title-wrapper">
+                                    <i class="far fa-dot-circle catalog__popup-consultation-title-icon"></i>
+                                    <span class="catalog__popup-consultation-title-text">корма и добавки</span>
+                                </div>
+                                <i class="fas fa-arrow-right catalog__popup-consultation-title-arrow"></i>
+                            </div>
+                            <div class="catalog__popup-consultation-title justify-content-between">
+                                <div class="catalog__popup-consultation-title-wrapper">
+                                    <i class="far fa-dot-circle catalog__popup-consultation-title-icon"></i>
+                                    <span class="catalog__popup-consultation-title-text">гигиена и косметика</span>
+                                </div>
+                                <i class="fas fa-arrow-right catalog__popup-consultation-title-arrow"></i>
+                            </div>
+                            <div class="catalog__popup-consultation-title justify-content-between">
+                                <div class="catalog__popup-consultation-title-wrapper">
+                                    <i class="far fa-dot-circle catalog__popup-consultation-title-icon"></i>
+                                    <span class="catalog__popup-consultation-title-text">оборудование и приборы, хирургические инструменты</span>
+                                </div>
+                                <i class="fas fa-arrow-right catalog__popup-consultation-title-arrow"></i>
+                            </div>
+                        </div>
+                        <div class="col-xl-5">
+                            <div class="catalog__popup-consultation-wrapper active">
+                                <a href="#" class="catalog__popup-consultation-item">Уход за полостью рта</a>
+                                <a href="#" class="catalog__popup-consultation-item">Шампуни, Спреи, Лосьоны</a>
+                                <a href="#" class="catalog__popup-consultation-item">Щетки, Расчески, Когтерезки</a>
+                                <a href="#" class="catalog__popup-consultation-item">Сумки-переноски</a>
+                                <a href="#" class="catalog__popup-consultation-item">Туалеты и Лотки</a>
+                                <a href="#" class="catalog__popup-consultation-item">Наполнители</a>
+                                <a href="#" class="catalog__popup-consultation-item">Корректоры поведения</a>
+                                <a href="#" class="catalog__popup-consultation-item">Средства для удаления пятен, меток и запаха</a>
+                                <a href="#" class="catalog__popup-consultation-item">Гигиена и уход для Лошадей</a>
+                                <a href="#" class="catalog__popup-consultation-item">Дезинфицирующие средства</a>
+                            </div>
+                            <div class="catalog__popup-consultation-wrapper">
+                                <a href="#" class="catalog__popup-consultation-item">Уход за полостью рта1</a>
+                                <a href="#" class="catalog__popup-consultation-item">Шампуни, Спреи, Лосьоны1</a>
+                                <a href="#" class="catalog__popup-consultation-item">Щетки, Расчески, Когтерезки1</a>
+                                <a href="#" class="catalog__popup-consultation-item">Сумки-переноски1</a>
+                                <a href="#" class="catalog__popup-consultation-item">Туалеты и Лотки1</a>
+                                <a href="#" class="catalog__popup-consultation-item">Наполнители1</a>
+                                <a href="#" class="catalog__popup-consultation-item">Корректоры поведения1</a>
+                                <a href="#" class="catalog__popup-consultation-item">Средства для удаления пятен, меток и запаха1</a>
+                                <a href="#" class="catalog__popup-consultation-item">Гигиена и уход для Лошадей1</a>
+                                <a href="#" class="catalog__popup-consultation-item">Дезинфицирующие средства1</a>
+                            </div>
+                            <div class="catalog__popup-consultation-wrapper">
+                                <a href="#" class="catalog__popup-consultation-item">Уход за полостью рта2</a>
+                                <a href="#" class="catalog__popup-consultation-item">Шампуни, Спреи, Лосьоны2</a>
+                                <a href="#" class="catalog__popup-consultation-item">Щетки, Расчески, Когтерезки2</a>
+                                <a href="#" class="catalog__popup-consultation-item">Сумки-переноски2</a>
+                                <a href="#" class="catalog__popup-consultation-item">Туалеты и Лотки2</a>
+                                <a href="#" class="catalog__popup-consultation-item">Наполнители2</a>
+                                <a href="#" class="catalog__popup-consultation-item">Корректоры поведения2</a>
+                                <a href="#" class="catalog__popup-consultation-item">Средства для удаления пятен, меток и запаха2</a>
+                                <a href="#" class="catalog__popup-consultation-item">Гигиена и уход для Лошадей2</a>
+                                <a href="#" class="catalog__popup-consultation-item">Дезинфицирующие средства2</a>
+                            </div>
+                            <div class="catalog__popup-consultation-wrapper">
+                                <a href="#" class="catalog__popup-consultation-item">Уход за полостью рта3</a>
+                                <a href="#" class="catalog__popup-consultation-item">Шампуни, Спреи, Лосьоны3</a>
+                                <a href="#" class="catalog__popup-consultation-item">Щетки, Расчески, Когтерезки3</a>
+                                <a href="#" class="catalog__popup-consultation-item">Сумки-переноски3</a>
+                                <a href="#" class="catalog__popup-consultation-item">Туалеты и Лотки3</a>
+                                <a href="#" class="catalog__popup-consultation-item">Наполнители3</a>
+                                <a href="#" class="catalog__popup-consultation-item">Корректоры поведения3</a>
+                                <a href="#" class="catalog__popup-consultation-item">Средства для удаления пятен, меток и запаха3</a>
+                                <a href="#" class="catalog__popup-consultation-item">Гигиена и уход для Лошадей3</a>
+                                <a href="#" class="catalog__popup-consultation-item">Дезинфицирующие средства3</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row catalog__main">
+                <div class="col-xl-7">
+                    <div class="catalog__main-description">
+                        Самый большой в Москве ассортимент качественных ветпрепаратов, зоотоваров и лечебных кормов!
+                    </div>
+                    <div class="catalog__main-consultation">
+                        <div class="catalog__main-consultation-link">консультация</div>
+                        <div class="catalog__main-consultation-mint"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="main__content">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-3 sidebar">
+                    <div class="row">
+                        <div class="col-xl-12">
+                            <div class="row">
+                                <div class="sidebar__banner">285 x 425</div>
+                                <div class="sidebar__banner">285 x 425</div>
+                                <div class="sidebar__interview">
+                                    <p class="sidebar__interview-title text-center">опрос</p>
+                                    <p class="sidebar__interview-description text-center">
+                                        Какое ИНСЕКТО-АКАРИЦИДНОЕ СРЕДСТВО Вы используете для защиты животного в период
+                                        активности насекомых и клещей?
+                                    </p>
+                                    <ul class="sidebar__interview-list p-0">
+                                        <li class="sidebar__interview-answer">
+                                            <label>
+                                                <input type="radio" name="answer"
+                                                       class="sidebar__interview-answer-radio">
+                                                адвокат
+                                            </label>
+                                        </li>
+                                        <li class="sidebar__interview-answer">
+                                            <label>
+                                                <input type="radio" name="answer"
+                                                       class="sidebar__interview-answer-radio">
+                                                барс
+                                            </label>
+                                        </li>
+                                        <li class="sidebar__interview-answer">
+                                            <label>
+                                                <input type="radio" name="answer"
+                                                       class="sidebar__interview-answer-radio">
+                                                бинакар
+                                            </label>
+                                        </li>
+                                        <li class="sidebar__interview-answer">
+                                            <label>
+                                                <input type="radio" name="answer"
+                                                       class="sidebar__interview-answer-radio">
+                                                блохнэт
+                                            </label>
+                                        </li>
+                                        <li class="sidebar__interview-answer">
+                                            <label>
+                                                <input type="radio" name="answer"
+                                                       class="sidebar__interview-answer-radio">
+                                                больфо
+                                            </label>
+                                        </li>
+                                        <li class="sidebar__interview-answer">
+                                            <label>
+                                                <input type="radio" name="answer"
+                                                       class="sidebar__interview-answer-radio">
+                                                бравекто
+                                            </label>
+                                        </li>
+                                        <li class="sidebar__interview-answer">
+                                            <label>
+                                                <input type="radio" name="answer"
+                                                       class="sidebar__interview-answer-radio">
+                                                вектра 3d
+                                            </label>
+                                        </li>
+                                        <li class="sidebar__interview-answer">
+                                            <label>
+                                                <input type="radio" name="answer"
+                                                       class="sidebar__interview-answer-radio">
+                                                дана
+                                            </label>
+                                        </li>
+                                        <li class="sidebar__interview-answer">
+                                            <label>
+                                                <input type="radio" name="answer"
+                                                       class="sidebar__interview-answer-radio">
+                                                ин-ап
+                                            </label>
+                                        </li>
+                                        <li class="sidebar__interview-answer">
+                                            <label>
+                                                <input type="radio" name="answer"
+                                                       class="sidebar__interview-answer-radio">
+                                                килтикс
+                                            </label>
+                                        </li>
+                                        <li class="sidebar__interview-answer">
+                                            <label>
+                                                <input type="radio" name="answer"
+                                                       class="sidebar__interview-answer-radio">
+                                                празицид
+                                            </label>
+                                        </li>
+                                        <li class="sidebar__interview-answer">
+                                            <label>
+                                                <input type="radio" name="answer"
+                                                       class="sidebar__interview-answer-radio">
+                                                превентефф
+                                            </label>
+                                        </li>
+                                        <li class="sidebar__interview-answer">
+                                            <label>
+                                                <input type="radio" name="answer"
+                                                       class="sidebar__interview-answer-radio">
+                                                стронгхолд
+                                            </label>
+                                        </li>
+                                        <li class="sidebar__interview-answer">
+                                            <label>
+                                                <input type="radio" name="answer"
+                                                       class="sidebar__interview-answer-radio">
+                                                фолайн спрей
+                                            </label>
+                                        </li>
+                                        <li class="sidebar__interview-answer">
+                                            <label>
+                                                <input type="radio" name="answer"
+                                                       class="sidebar__interview-answer-radio">
+                                                фронтлайн
+                                            </label>
+                                        </li>
+                                        <li class="sidebar__interview-answer _tt-n">
+                                            <label>
+                                                <input type="radio" name="answer"
+                                                       class="sidebar__interview-answer-radio">
+                                                <span>Используете другое средство</span>
+                                            </label>
+                                        </li>
+                                        <li class="sidebar__interview-answer _tt-n">
+                                            <label>
+                                                <input type="radio" name="answer"
+                                                       class="sidebar__interview-answer-radio">
+                                                <span>Доверяете совету консультанта в ветаптеке</span>
+                                            </label>
+                                        </li>
+                                        <li class="sidebar__interview-answer _tt-n">
+                                            <label>
+                                                <input type="radio" name="answer"
+                                                       class="sidebar__interview-answer-radio">
+                                                <span>Каждый раз используете разные средства</span>
+                                            </label>
+                                        </li>
+                                    </ul>
+                                    <div class="sidebar__interview-btn text-center">
+                                        <a href="#" class="sidebar__interview-btn-text">голосовать</a>
+                                    </div>
+                                    <a href="#" class="sidebar__interview-link text-center">результаты опроса</a>
+                                </div>
+                                <div class="sidebar__img w-100">
+                                    <img src="img/sidebar-img.png" alt="" class="w-100">
+                                </div>
+                                <div class="sidebar__subscription">
+                                    <div class="sidebar__subscription-title">рассылка</div>
+                                    <div class="sidebar__subscription-description text-center">Подпишись на новости <br>
+                                        ветаптеки VETLEK!
+                                    </div>
+                                    <form action="" class="sidebar__subscription-form">
+                                        <input type="text" placeholder="Ваше имя"
+                                               class="sidebar__subscription-form-input w-100">
+                                        <input type="email" placeholder="E-mail"
+                                               class="sidebar__subscription-form-input w-100">
+                                        <div class="sidebar__subscription-btn">
+                                            <a href="#" class="sidebar__subscription-btn-text">подписаться</a>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-9">
+                    <div class="row">
+                        <div class="col-xl-12 goods">
+                            <h2 class="goods__h2">Новинки</h2>
+                            <div class="row">
+                                <div class="col-xl-4 goods__col">
+                                    <div class="goods__card text-center">
+                                        <img src="img/goods.png" alt="" class="goods__card-img">
+                                        <div class="goods__card-description">
+                                            PADOVAN GRANDMIX ESOTICI
+                                            <br>
+                                            ПАДОВАН КОРМ
+                                            <br>
+                                            для экзотических птиц
+                                        </div>
+                                        <div class="goods__card-price">
+                                            280 руб.
+                                        </div>
+                                        <div class="goods__card-button">
+                                            <a href="#" class="goods__card-button-text">в корзину</a>
+                                        </div>
+                                        <div class="goods__card-label">новинка!</div>
+                                    </div>
+                                </div>
+                                <div class="col-xl-4 goods__col">
+                                    <div class="goods__card text-center">
+                                        <img src="img/goods.png" alt="" class="goods__card-img">
+                                        <div class="goods__card-description">
+                                            PADOVAN GRANDMIX ESOTICI
+                                            <br>
+                                            ПАДОВАН КОРМ
+                                            <br>
+                                            для экзотических птиц
+                                        </div>
+                                        <div class="goods__card-price">
+                                            280 руб.
+                                        </div>
+                                        <div class="goods__card-button">
+                                            <a href="#" class="goods__card-button-text">в корзину</a>
+                                        </div>
+                                        <div class="goods__card-label">новинка!</div>
+                                    </div>
+                                </div>
+                                <div class="col-xl-4 goods__col">
+                                    <div class="goods__card text-center">
+                                        <img src="img/goods.png" alt="" class="goods__card-img">
+                                        <div class="goods__card-description">
+                                            PADOVAN GRANDMIX ESOTICI
+                                            <br>
+                                            ПАДОВАН КОРМ
+                                            <br>
+                                            для экзотических птиц
+                                        </div>
+                                        <div class="goods__card-price">
+                                            280 руб.
+                                        </div>
+                                        <div class="goods__card-button">
+                                            <a href="#" class="goods__card-button-text">в корзину</a>
+                                        </div>
+                                        <div class="goods__card-label">новинка!</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-xl-12 goods">
+                            <h2 class="goods__h2">Рекомендуем</h2>
+                            <div class="row">
+                                <div class="col-xl-4 goods__col">
+                                    <div class="goods__card text-center">
+                                        <img src="img/goods.png" alt="" class="goods__card-img">
+                                        <div class="goods__card-description">
+                                            PADOVAN GRANDMIX ESOTICI
+                                            <br>
+                                            ПАДОВАН КОРМ
+                                            <br>
+                                            для экзотических птиц
+                                        </div>
+                                        <div class="goods__card-price">
+                                            280 руб.
+                                        </div>
+                                        <div class="goods__card-button">
+                                            <a href="#" class="goods__card-button-text">в корзину</a>
+                                        </div>
+                                        <div class="goods__card-label">
+                                            <img src="img/star-icon.png" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xl-4 goods__col">
+                                    <div class="goods__card text-center">
+                                        <img src="img/goods.png" alt="" class="goods__card-img">
+                                        <div class="goods__card-description">
+                                            PADOVAN GRANDMIX ESOTICI
+                                            <br>
+                                            ПАДОВАН КОРМ
+                                            <br>
+                                            для экзотических птиц
+                                        </div>
+                                        <div class="goods__card-price">
+                                            280 руб.
+                                        </div>
+                                        <div class="goods__card-button">
+                                            <a href="#" class="goods__card-button-text">в корзину</a>
+                                        </div>
+                                        <div class="goods__card-label">
+                                            <img src="img/star-icon.png" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xl-4 goods__col">
+                                    <div class="goods__card text-center">
+                                        <img src="img/goods.png" alt="" class="goods__card-img">
+                                        <div class="goods__card-description">
+                                            PADOVAN GRANDMIX ESOTICI
+                                            <br>
+                                            ПАДОВАН КОРМ
+                                            <br>
+                                            для экзотических птиц
+                                        </div>
+                                        <div class="goods__card-price">
+                                            280 руб.
+                                        </div>
+                                        <div class="goods__card-button">
+                                            <a href="#" class="goods__card-button-text">в корзину</a>
+                                        </div>
+                                        <div class="goods__card-label">
+                                            <img src="img/star-icon.png" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="goods__link">открыть каталог</p>
+                    <div class="about-company">
+                        <h3 class="h3 text-center">о компании</h3>
+                        <div class="about-company__description">
+                            <p class="about-company__description-text">
+                                Специалисты нашей ветеринарной аптеки помогут наилучшим образом подобрать все
+                                необходимые препараты и зоотовары для каждого животного.
+                            </p>
+                            <p class="about-company__description-text">
+                                В нашей зооаптеке самый большой в Москве ассортимент ветпрепаратов, зоотоваров, лечебных
+                                кормов ведущих отечественных и зарубежных производителей для кошек, собак, домашнего
+                                скота, лошадей, птиц, экзотических животных, пчел. Весь товар сертифицирован. Действует
+                                "стол заказов".
+                            </p>
+                        </div>
+                    </div>
+                    <div class="new-on-site">
+                        <h3 class="h3 text-center">Новое на сайте</h3>
+                        <div class="row">
+                            <div class="col-xl-8">
+                                <h4 class="new-on-site__title _articles">новые статьи о ветеринарии и зоотоварах</h4>
+                                <div class="new-on-site__wrapper">
+                                    <div class="col-xl-6">
+                                        <p class="new-on-site__text _mark">объявление 03.04.18</p>
+                                        <a href="#" class="new-on-site__text">
+                                            <p>
+                                                <i class="far fa-dot-circle new-on-site__icon"></i>
+                                                Все об АДС - история создания препарата, область применения, инструкция,
+                                                где
+                                                купить ...
+                                            </p>
+                                        </a>
+                                        <a href="#" class="new-on-site__text">
+                                            <p>
+                                                <i class="far fa-dot-circle new-on-site__icon"></i>
+                                                История компании Интервет ...
+                                            </p>
+                                        </a>
+                                        <a href="#" class="new-on-site__text">
+                                            <p>
+                                                <i class="far fa-dot-circle new-on-site__icon"></i>
+                                                Если друг заболел ...
+                                            </p>
+                                        </a>
+                                        <a href="#" class="new-on-site__text">
+                                            <p>
+                                                <i class="far fa-dot-circle new-on-site__icon"></i>
+                                                ISBC ...
+                                            </p>
+                                        </a>
+                                        <a href="#" class="new-on-site__text">
+                                            <p>
+                                                <i class="far fa-dot-circle new-on-site__icon"></i>
+                                                ПРОГЕСТАМАГ - новое слово в воспроизводстве ...
+                                            </p>
+                                        </a>
+                                        <a href="#" class="new-on-site__text">
+                                            <p>
+                                                <i class="far fa-dot-circle new-on-site__icon"></i>
+                                                Вакцина Нобивак DHPPI ...
+                                            </p>
+                                        </a>
+                                        <a href="#" class="new-on-site__text">
+                                            <p>
+                                                <i class="far fa-dot-circle new-on-site__icon"></i>
+                                                Все об АДС - история создания препарата, область ...
+                                            </p>
+                                        </a>
+                                    </div>
+                                    <div class="col-xl-6">
+                                        <a href="#" class="new-on-site__text">
+                                            <p>
+                                                <i class="far fa-dot-circle new-on-site__icon"></i>
+                                                Все об АДС - история создания препарата, область применения, инструкция,
+                                                где
+                                                купить ...
+                                            </p>
+                                        </a>
+                                        <a href="#" class="new-on-site__text">
+                                            <p>
+                                                <i class="far fa-dot-circle new-on-site__icon"></i>
+                                                История компании Интервет ...
+                                            </p>
+                                        </a>
+                                        <a href="#" class="new-on-site__text">
+                                            <p>
+                                                <i class="far fa-dot-circle new-on-site__icon"></i>
+                                                Если друг заболел ...
+                                            </p>
+                                        </a>
+                                        <a href="#" class="new-on-site__text">
+                                            <p>
+                                                <i class="far fa-dot-circle new-on-site__icon"></i>
+                                                ISBC ...
+                                            </p>
+                                        </a>
+                                        <a href="#" class="new-on-site__text">
+                                            <p>
+                                                <i class="far fa-dot-circle new-on-site__icon"></i>
+                                                ПРОГЕСТАМАГ - новое слово в воспроизводстве ...
+                                            </p>
+                                        </a>
+                                        <a href="#" class="new-on-site__text">
+                                            <p>
+                                                <i class="far fa-dot-circle new-on-site__icon"></i>
+                                                Вакцина Нобивак DHPPI ...
+                                            </p>
+                                        </a>
+                                        <a href="#" class="new-on-site__text _mark">
+                                            <p>
+                                                все статьи
+                                                <i class="fas fa-caret-right new-on-site__icon _middle"></i>
+                                            </p>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-4">
+                                <h4 class="new-on-site__title _vocabulary">новое в словаре</h4>
+                                <div class="new-on-site__wrapper">
+                                    <div class="col-xl-12">
+                                        <p class="new-on-site__text _mark">объявление 03.04.18</p>
+                                        <a href="#" class="new-on-site__text">
+                                            <p>
+                                                <i class="far fa-dot-circle new-on-site__icon"></i>
+                                                Иммунокомпетенция ...
+                                            </p>
+                                        </a>
+                                        <a href="#" class="new-on-site__text">
+                                            <p>
+                                                <i class="far fa-dot-circle new-on-site__icon"></i>
+                                                Иммуноглобулины ...
+                                            </p>
+                                        </a>
+                                        <a href="#" class="new-on-site__text">
+                                            <p>
+                                                <i class="far fa-dot-circle new-on-site__icon"></i>
+                                                Т-лимфоциты ...
+                                            </p>
+                                        </a>
+                                        <a href="#" class="new-on-site__text">
+                                            <p>
+                                                <i class="far fa-dot-circle new-on-site__icon"></i>
+                                                В-лимфоциты ...
+                                            </p>
+                                        </a>
+                                        <a href="#" class="new-on-site__text">
+                                            <p>
+                                                <i class="far fa-dot-circle new-on-site__icon"></i>
+                                                ISBC ...
+                                            </p>
+                                        </a>
+                                        <a href="#" class="new-on-site__text">
+                                            <p>
+                                                <i class="far fa-dot-circle new-on-site__icon"></i>
+                                                ПРОГЕСТАМАГ - новое слово в воспроизводстве ...
+                                            </p>
+                                        </a>
+                                        <a href="#" class="new-on-site__text">
+                                            <p>
+                                                <i class="far fa-dot-circle new-on-site__icon"></i>
+                                                Вакцина Нобивак DHPPI ...
+                                            </p>
+                                        </a>
+                                        <a href="#" class="new-on-site__text _mark">
+                                            <p>
+                                                все ветеринарные термины
+                                                <i class="fas fa-caret-right new-on-site__icon _middle"></i>
+                                            </p>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-xl-4">
+                                <h4 class="new-on-site__title _manual">новые инструкции</h4>
+                                <div class="new-on-site__wrapper">
+                                    <div class="col-xl-12">
+                                        <p class="new-on-site__text _mark">объявление 03.04.18</p>
+                                        <a href="#" class="new-on-site__text">
+                                            <p>
+                                                <i class="far fa-dot-circle new-on-site__icon"></i>
+                                                Иммунокомпетенция ...
+                                            </p>
+                                        </a>
+                                        <a href="#" class="new-on-site__text">
+                                            <p>
+                                                <i class="far fa-dot-circle new-on-site__icon"></i>
+                                                Иммуноглобулины ...
+                                            </p>
+                                        </a>
+                                        <a href="#" class="new-on-site__text">
+                                            <p>
+                                                <i class="far fa-dot-circle new-on-site__icon"></i>
+                                                Т-лимфоциты ...
+                                            </p>
+                                        </a>
+                                        <a href="#" class="new-on-site__text">
+                                            <p>
+                                                <i class="far fa-dot-circle new-on-site__icon"></i>
+                                                В-лимфоциты ...
+                                            </p>
+                                        </a>
+                                        <a href="#" class="new-on-site__text">
+                                            <p>
+                                                <i class="far fa-dot-circle new-on-site__icon"></i>
+                                                ISBC ...
+                                            </p>
+                                        </a>
+                                        <a href="#" class="new-on-site__text">
+                                            <p>
+                                                <i class="far fa-dot-circle new-on-site__icon"></i>
+                                                ПРОГЕСТАМАГ - новое слово в воспроизводстве ...
+                                            </p>
+                                        </a>
+                                        <a href="#" class="new-on-site__text">
+                                            <p>
+                                                <i class="far fa-dot-circle new-on-site__icon"></i>
+                                                Вакцина Нобивак DHPPI ...
+                                            </p>
+                                        </a>
+                                        <a href="#" class="new-on-site__text _mark">
+                                            <p>
+                                                все ветеринарные термины
+                                                <i class="fas fa-caret-right new-on-site__icon _middle"></i>
+                                            </p>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-8">
+                                <h4 class="new-on-site__title _forum">новое на нашем ветеринарном форуме</h4>
+                                <div class="new-on-site__wrapper">
+                                    <div class="col-xl-6">
+                                        <p class="new-on-site__text _mark">объявление 03.04.18</p>
+                                        <a href="#" class="new-on-site__text">
+                                            <p>
+                                                <i class="far fa-dot-circle new-on-site__icon"></i>
+                                                Все об АДС - история создания препарата, область применения, инструкция,
+                                                где
+                                                купить ...
+                                            </p>
+                                        </a>
+                                        <a href="#" class="new-on-site__text">
+                                            <p>
+                                                <i class="far fa-dot-circle new-on-site__icon"></i>
+                                                История компании Интервет ...
+                                            </p>
+                                        </a>
+                                        <a href="#" class="new-on-site__text">
+                                            <p>
+                                                <i class="far fa-dot-circle new-on-site__icon"></i>
+                                                Если друг заболел ...
+                                            </p>
+                                        </a>
+                                        <a href="#" class="new-on-site__text">
+                                            <p>
+                                                <i class="far fa-dot-circle new-on-site__icon"></i>
+                                                ISBC ...
+                                            </p>
+                                        </a>
+                                        <a href="#" class="new-on-site__text">
+                                            <p>
+                                                <i class="far fa-dot-circle new-on-site__icon"></i>
+                                                ПРОГЕСТАМАГ - новое слово в воспроизводстве ...
+                                            </p>
+                                        </a>
+                                        <a href="#" class="new-on-site__text">
+                                            <p>
+                                                <i class="far fa-dot-circle new-on-site__icon"></i>
+                                                Вакцина Нобивак DHPPI ...
+                                            </p>
+                                        </a>
+                                        <a href="#" class="new-on-site__text">
+                                            <p>
+                                                <i class="far fa-dot-circle new-on-site__icon"></i>
+                                                Все об АДС - история создания препарата, область ...
+                                            </p>
+                                        </a>
+                                    </div>
+                                    <div class="col-xl-6">
+                                        <a href="#" class="new-on-site__text">
+                                            <p>
+                                                <i class="far fa-dot-circle new-on-site__icon"></i>
+                                                Все об АДС - история создания препарата, область применения, инструкция,
+                                                где
+                                                купить ...
+                                            </p>
+                                        </a>
+                                        <a href="#" class="new-on-site__text">
+                                            <p>
+                                                <i class="far fa-dot-circle new-on-site__icon"></i>
+                                                История компании Интервет ...
+                                            </p>
+                                        </a>
+                                        <a href="#" class="new-on-site__text">
+                                            <p>
+                                                <i class="far fa-dot-circle new-on-site__icon"></i>
+                                                Если друг заболел ...
+                                            </p>
+                                        </a>
+                                        <a href="#" class="new-on-site__text">
+                                            <p>
+                                                <i class="far fa-dot-circle new-on-site__icon"></i>
+                                                ISBC ...
+                                            </p>
+                                        </a>
+                                        <a href="#" class="new-on-site__text">
+                                            <p>
+                                                <i class="far fa-dot-circle new-on-site__icon"></i>
+                                                ПРОГЕСТАМАГ - новое слово в воспроизводстве ...
+                                            </p>
+                                        </a>
+                                        <a href="#" class="new-on-site__text">
+                                            <p>
+                                                <i class="far fa-dot-circle new-on-site__icon"></i>
+                                                Вакцина Нобивак DHPPI ...
+                                            </p>
+                                        </a>
+                                        <a href="#" class="new-on-site__text _mark">
+                                            <p>
+                                                все статьи
+                                                <i class="fas fa-caret-right new-on-site__icon _middle"></i>
+                                            </p>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-xl-8">
+                                <h4 class="new-on-site__title _guest-book">новое в гостевой книге нашей зооаптеки</h4>
+                                <div class="new-on-site__wrapper">
+                                    <div class="col-xl-6">
+                                        <p class="new-on-site__text _mark">объявление 03.04.18</p>
+                                        <a href="#" class="new-on-site__text">
+                                            <p>
+                                                <i class="far fa-dot-circle new-on-site__icon"></i>
+                                                Все об АДС - история создания препарата, область применения, инструкция,
+                                                где
+                                                купить ...
+                                            </p>
+                                        </a>
+                                        <a href="#" class="new-on-site__text">
+                                            <p>
+                                                <i class="far fa-dot-circle new-on-site__icon"></i>
+                                                История компании Интервет ...
+                                            </p>
+                                        </a>
+                                        <a href="#" class="new-on-site__text">
+                                            <p>
+                                                <i class="far fa-dot-circle new-on-site__icon"></i>
+                                                Если друг заболел ...
+                                            </p>
+                                        </a>
+                                        <a href="#" class="new-on-site__text">
+                                            <p>
+                                                <i class="far fa-dot-circle new-on-site__icon"></i>
+                                                ISBC ...
+                                            </p>
+                                        </a>
+                                        <a href="#" class="new-on-site__text">
+                                            <p>
+                                                <i class="far fa-dot-circle new-on-site__icon"></i>
+                                                ПРОГЕСТАМАГ - новое слово в воспроизводстве ...
+                                            </p>
+                                        </a>
+                                        <a href="#" class="new-on-site__text">
+                                            <p>
+                                                <i class="far fa-dot-circle new-on-site__icon"></i>
+                                                Вакцина Нобивак DHPPI ...
+                                            </p>
+                                        </a>
+                                        <a href="#" class="new-on-site__text">
+                                            <p>
+                                                <i class="far fa-dot-circle new-on-site__icon"></i>
+                                                Все об АДС - история создания препарата, область ...
+                                            </p>
+                                        </a>
+                                    </div>
+                                    <div class="col-xl-6">
+                                        <a href="#" class="new-on-site__text">
+                                            <p>
+                                                <i class="far fa-dot-circle new-on-site__icon"></i>
+                                                Все об АДС - история создания препарата, область применения, инструкция,
+                                                где
+                                                купить ...
+                                            </p>
+                                        </a>
+                                        <a href="#" class="new-on-site__text">
+                                            <p>
+                                                <i class="far fa-dot-circle new-on-site__icon"></i>
+                                                История компании Интервет ...
+                                            </p>
+                                        </a>
+                                        <a href="#" class="new-on-site__text">
+                                            <p>
+                                                <i class="far fa-dot-circle new-on-site__icon"></i>
+                                                Если друг заболел ...
+                                            </p>
+                                        </a>
+                                        <a href="#" class="new-on-site__text">
+                                            <p>
+                                                <i class="far fa-dot-circle new-on-site__icon"></i>
+                                                ISBC ...
+                                            </p>
+                                        </a>
+                                        <a href="#" class="new-on-site__text">
+                                            <p>
+                                                <i class="far fa-dot-circle new-on-site__icon"></i>
+                                                ПРОГЕСТАМАГ - новое слово в воспроизводстве ...
+                                            </p>
+                                        </a>
+                                        <a href="#" class="new-on-site__text">
+                                            <p>
+                                                <i class="far fa-dot-circle new-on-site__icon"></i>
+                                                Вакцина Нобивак DHPPI ...
+                                            </p>
+                                        </a>
+                                        <a href="#" class="new-on-site__text _mark">
+                                            <p>
+                                                все статьи
+                                                <i class="fas fa-caret-right new-on-site__icon _middle"></i>
+                                            </p>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-4">
+                                <h4 class="new-on-site__title _ads">новые объявления</h4>
+                                <div class="new-on-site__wrapper">
+                                    <div class="col-xl-12">
+                                        <p class="new-on-site__text _mark">объявление 03.04.18</p>
+                                        <a href="#" class="new-on-site__text">
+                                            <p>
+                                                <i class="far fa-dot-circle new-on-site__icon"></i>
+                                                Иммунокомпетенция ...
+                                            </p>
+                                        </a>
+                                        <a href="#" class="new-on-site__text">
+                                            <p>
+                                                <i class="far fa-dot-circle new-on-site__icon"></i>
+                                                Иммуноглобулины ...
+                                            </p>
+                                        </a>
+                                        <a href="#" class="new-on-site__text">
+                                            <p>
+                                                <i class="far fa-dot-circle new-on-site__icon"></i>
+                                                Т-лимфоциты ...
+                                            </p>
+                                        </a>
+                                        <a href="#" class="new-on-site__text">
+                                            <p>
+                                                <i class="far fa-dot-circle new-on-site__icon"></i>
+                                                В-лимфоциты ...
+                                            </p>
+                                        </a>
+                                        <a href="#" class="new-on-site__text">
+                                            <p>
+                                                <i class="far fa-dot-circle new-on-site__icon"></i>
+                                                ISBC ...
+                                            </p>
+                                        </a>
+                                        <a href="#" class="new-on-site__text">
+                                            <p>
+                                                <i class="far fa-dot-circle new-on-site__icon"></i>
+                                                ПРОГЕСТАМАГ - новое слово в воспроизводстве ...
+                                            </p>
+                                        </a>
+                                        <a href="#" class="new-on-site__text">
+                                            <p>
+                                                <i class="far fa-dot-circle new-on-site__icon"></i>
+                                                Вакцина Нобивак DHPPI ...
+                                            </p>
+                                        </a>
+                                        <a href="#" class="new-on-site__text _mark">
+                                            <p>
+                                                все ветеринарные термины
+                                                <i class="fas fa-caret-right new-on-site__icon _middle"></i>
+                                            </p>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="address">
+                        <h3 class="h3 text-center">ветаптеки в москве</h3>
+                        <div class="row">
+                            <div class="col-xl-6">
+                                <div class="row">
+                                    <div class="address__card">
+                                        <p class="address__card-text _mb-15">107370, г. Москва, Открытое шоссе, дом 5,
+                                            корпус
+                                            6.</p>
+                                        <p class="address__card-text _mb-15">20 метров от ст. метро Бульвар
+                                            Рокоссовского
+                                            (ранее м. Улица Подбельского)</p>
+                                        <p class="address__card-text _mb-15">
+                                            Время работы: с
+                                            <span class="address__card-mark">9.00</span>
+                                            до
+                                            <span class="address__card-mark">20.00</span>
+                                            без выходных.
+                                        </p>
+                                        <p class="address__card-text">
+                                            Тел.:
+                                            <span class="address__card-mark">(495) 510-86-04</span>
+                                        </p>
+                                        <p class="address__card-text">
+                                            Тел.:
+                                            <span class="address__card-mark">(499) 168-85-86</span>
+                                        </p>
+                                        <p class="address__card-text">
+                                            E-mail:
+                                            <span class="address__card-mark">vetlek@bk.ru, vetlek2@yandex.ru</span>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-6">
+                                <div class="row">
+                                    <div class="address__map" id="map1"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-xl-6">
+                                <div class="row">
+                                    <div class="address__card">
+                                        <p class="address__card-text _mb-15">105066, г. Москва, ул. Нижняя
+                                            Красносельская, дом 28</p>
+                                        <p class="address__card-text _mb-15">(ст. метро Красносельская, Бауманская)</p>
+                                        <p class="address__card-text _mb-15">
+                                            Время работы: с
+                                            <span class="address__card-mark">9.00</span>
+                                            до
+                                            <span class="address__card-mark">20.00</span>
+                                            без выходных.
+                                        </p>
+                                        <p class="address__card-text">
+                                            Тел.:
+                                            <span class="address__card-mark">(495) 972-74-06</span>
+                                        </p>
+                                        <p class="address__card-text">
+                                            Тел.:
+                                            <span class="address__card-mark">(499) 261-70-83</span>
+                                        </p>
+                                        <p class="address__card-text">
+                                            E-mail:
+                                            <span class="address__card-mark">vetlek3@bk.ru</span>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-6">
+                                <div class="row">
+                                    <div class="address__map" id="map2"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="thanks-block">
+                <div class="row">
+                    <div class="col-xl-3">
+                        <img src="img/cat.png" alt="" class="thanks-block__img w-100">
+                    </div>
+                    <div class="col-xl-9">
+                        <p class="thanks-block__text m-0">спасибо за ваше доверие ветаптеке vetlek!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+
+
+<footer class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-12 footer__copy text-center">
+                <p class="footer__copy-text m-0">2005 - 2018 ООО &laquo;ВЕТТОРГ&raquo;. Все права защищены.
+                    Свидетельство о регистрации средства массовой инфомации ПИ 77-5870 от 30.11.2000 г.</p>
+                <p class="footer__copy-text m-0">Использование информации в любых целях без разрешения ООО &laquo;ВЕТТОРГ&raquo;
+                    запрещено.</p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script>
+    var map1, map2;
+
+    function initMap() {
+        map1 = new google.maps.Map(document.getElementById('map1'), {
+            center: {lat: 55.813678, lng: 37.734479},
+            zoom: 16
+        });
+        var marker1 = new google.maps.Marker({
+            position: {lat: 55.813678, lng: 37.734479},
+            map: map1,
+        });
+        map2 = new google.maps.Map(document.getElementById('map2'), {
+            center: {lat: 55.776462, lng: 37.669899},
+            zoom: 16
+        });
+        var marker2 = new google.maps.Marker({
+            position: {lat: 55.776462, lng: 37.669899},
+            map: map2,
+        });
+    }
+</script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyARg2tCzFy-8MLM5SbqptCLVE95rSmAkII&callback=initMap"
+        async defer></script>
+<script src="script.js"></script>
+</body>
+</html>

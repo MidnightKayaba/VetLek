@@ -1,0 +1,119 @@
+.catalog {
+  width: 100%;
+  height: 573px;
+  background: url("../img/top-main.png"); }
+  .catalog__header {
+    padding: 12px 0;
+    position: relative; }
+    .catalog__header-link {
+      cursor: pointer; }
+      .catalog__header-link-img {
+        vertical-align: baseline;
+        margin-right: 31px;
+        margin-bottom: -2px; }
+      .catalog__header-link-text {
+        font-family: "Cera Round Pro";
+        color: #fefefe;
+        font-size: 40px;
+        font-weight: 500;
+        line-height: 30px;
+        text-transform: uppercase; }
+  .catalog__main-description {
+    font-family: "Cera Round Pro";
+    color: #fff;
+    font-size: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 80px;
+    line-height: 48px; }
+  .catalog__main-consultation {
+    position: relative; }
+    .catalog__main-consultation-link {
+      border: 4px solid #c48f12;
+      border-radius: 30px;
+      background: linear-gradient(0deg, #ca9714 0%, #daac21 36%, #e3b828 100%);
+      box-shadow: 9px 16px 18px 0 #77500c;
+      width: 278px;
+      font-family: "Cera Round Pro";
+      color: #fff;
+      font-size: 30px;
+      font-weight: 500;
+      padding: 11px 33px;
+      line-height: 30px;
+      margin: 40px auto;
+      position: relative;
+      z-index: 666;
+      cursor: pointer; }
+    .catalog__main-consultation-mint {
+      width: 147px;
+      height: 127px;
+      background: url("../img/leaf.png");
+      position: absolute;
+      right: 100px;
+      bottom: -40px; }
+  .catalog__popup {
+    background: #d4a71c;
+    position: absolute;
+    top: 63px;
+    padding: 20px 15px 0 15px;
+    z-index: 6666;
+    display: none; }
+    .catalog__popup-goods-item {
+      margin-bottom: 20px; }
+      .catalog__popup-goods-item-title, .catalog__popup-goods-item-links, .catalog__popup-goods-item-links-link {
+        font-family: "Cera Round Pro";
+        color: #fff;
+        font-size: 18px; }
+      .catalog__popup-goods-item-title {
+        font-size: 20px;
+        text-transform: uppercase; }
+        .catalog__popup-goods-item-title:hover {
+          color: #5a4827;
+          text-decoration: none; }
+      .catalog__popup-goods-item-links-link {
+        line-height: 24px; }
+        .catalog__popup-goods-item-links-link:hover {
+          color: #5a4827;
+          text-decoration: none; }
+    .catalog__popup-consultation {
+      padding-top: 50px;
+      padding-bottom: 23px; }
+      .catalog__popup-consultation-title {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        font-family: "Cera Round Pro";
+        color: #fff;
+        font-size: 16px;
+        text-transform: uppercase;
+        margin-bottom: 60px;
+        cursor: pointer; }
+        .catalog__popup-consultation-title:hover {
+          color: #5a4827; }
+        .catalog__popup-consultation-title-wrapper {
+          display: flex;
+          align-items: center; }
+        .catalog__popup-consultation-title-icon {
+          margin-right: 10px; }
+        .catalog__popup-consultation-title-arrow {
+          float: right;
+          display: none; }
+        .catalog__popup-consultation-title.active {
+          color: #5a4827; }
+        .catalog__popup-consultation-title.active .catalog__popup-consultation-title-arrow {
+          display: block; }
+      .catalog__popup-consultation-wrapper {
+        display: none; }
+      .catalog__popup-consultation-wrapper.active {
+        display: block; }
+      .catalog__popup-consultation-item {
+        display: block;
+        font-family: "Cera Round Pro";
+        color: #fff;
+        font-size: 16px;
+        margin-bottom: 10px; }
+        .catalog__popup-consultation-item:hover {
+          color: #5a4827;
+          text-decoration: none; }
+
+/*# sourceMappingURL=catalog.css.map */
